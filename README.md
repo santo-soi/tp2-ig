@@ -1,6 +1,6 @@
 # Trabajo Práctico n°2 Informatica General - UNA
 
-## Integrantes: _Santino Iosipescu_ , Lourdes Estefania Bermudes Koleff
+## Integrantes: _Santino Iosipescu_ , Lourdes Estefania Bermúdez Koleff
 
 ### Artista Elegido: ***Fernando Gonzalez Romero (Alias Gonzalex Romero)***
 
