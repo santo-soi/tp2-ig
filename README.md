@@ -6,4 +6,12 @@
 
 ## <br> Breve descripción:
 
-#### Hasta ahora venimos preparando la investigación base sobre el artista elegido, mientras que nos estamos interiorizando en el uso de [tailwind](https://tailwindcss.com/) antes de comenzar con cualquier boceto del sitio.<br>Entrando en la carpeta de proyecto van a poder ver un par de links e información referidos del artista.
+Estamos haciendo un sitio de "Gonzalex Romero", músico independiente. La idea es tratar de armar una narrativa visual, con fotos y recursos estéticos simples y minimalistas, que permitan un recorrido llamativo y fluido. Así, es como tratamos de abarcar un público más amplio del que ya tiene formado, a la vez de potenciar iconicamente la figura con la que se muestra en internet. 
+
+### Hasta ahora:
+
+* Venimos recopilando contenido del artista, que obtenemos mediante contacto directo con él.
+* Seguimos interiorizandonos en el uso de tailwind.css.
+* Trabajamos bocetos visuales del index.
+* Programamos una primer demo de la página principal.
+* Establecimos un primer modelo de mapa de navegación del sitio.
