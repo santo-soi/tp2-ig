@@ -8,6 +8,10 @@ module.exports = {
 
     },
     extend: { 
+       backgroundImage: {
+         portadaMobile: "url('../img/portada-mobile.jpg')",
+         portada: "url('../img/portada.jpg')"
+      },
     colors: {
       rojoPelado : '#DB2323',
       rojoFondo :'#9f120d'
