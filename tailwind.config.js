@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["**/*.{html,js}"],
+  content: [
+    'index.html',
+    'js/*.js',
+    'shows.html'
+  ],
   theme: {
     fontFamily: {
       gloria: ['Gloria Hallelujah'],
