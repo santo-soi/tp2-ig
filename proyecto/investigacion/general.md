@@ -16,4 +16,4 @@ Nuestra propuesta es programar un sitio de _"presencia de marca"_, o _"blog pers
     * [**Instagram**](https://www.instagram.com/gonzalexromero/)     
     * [**Facebook**](https://m.facebook.com/gonzalexromero/)   
     * [**Youtube**](https://www.youtube.com/channel/UCfENjUj_gaB9bc7RbaQMZ4Q)   
-    * [**Spotify**](https://open.spotify.com/intl-es/artist/1pwLzLua9oLplHIm7kBgfR?si=oQOPpoTZShuTvrQeRMCMjA)             
+    * [**Spotify**](https://open.spotify.com/intl-es/artist/1pwLzLua9oLplHIm7kBgfR?si=l_QikuPdQFWR6wxYXCKtVw)             
