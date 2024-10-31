@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     'index.html',
-    
+    'show.html',
     'js/*.js'
   ],
   theme: {
@@ -12,6 +12,7 @@ module.exports = {
 
     },
     extend: { 
+      
        backgroundImage: {
          portadaMobile: "url('../img/portada-mobile.jpg')",
          portada: "url('../img/portada.jpg')"
@@ -23,6 +24,7 @@ module.exports = {
     width: {
       'bloquesMain': '25%'
     }
+
 
     },
   },

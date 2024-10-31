@@ -600,6 +600,10 @@ video {
   order: 3;
 }
 
+.m-1{
+  margin: 0.25rem;
+}
+
 .m-3{
   margin: 0.75rem;
 }
@@ -608,17 +612,9 @@ video {
   margin: 1rem;
 }
 
-.m-2{
-  margin: 0.5rem;
-}
-
-.m-1{
-  margin: 0.25rem;
-}
-
-.mx-1{
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
+.mx-1\.5{
+  margin-left: 0.375rem;
+  margin-right: 0.375rem;
 }
 
 .mx-auto{
@@ -641,19 +637,9 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-3{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-}
-
-.mx-1\.5{
-  margin-left: 0.375rem;
-  margin-right: 0.375rem;
 }
 
 .inline-block{
@@ -698,18 +684,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-2\/3{
-  width: 66.666667%;
-}
-
-.w-3\/4{
-  width: 75%;
-}
-
-.w-2{
-  width: 0.5rem;
 }
 
 .flex-1{
@@ -813,6 +787,10 @@ video {
      object-fit: cover;
 }
 
+.p-1{
+  padding: 0.25rem;
+}
+
 .p-10{
   padding: 2.5rem;
 }
@@ -823,14 +801,6 @@ video {
 
 .p-4{
   padding: 1rem;
-}
-
-.p-1{
-  padding: 0.25rem;
-}
-
-.p-2{
-  padding: 0.5rem;
 }
 
 .py-0\.5{
@@ -854,11 +824,6 @@ video {
   font-family: Bodoni Moda;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -866,11 +831,6 @@ video {
 
 .text-lg{
   font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -971,8 +931,32 @@ video {
     right: 0px;
   }
 
-  .lg\:top-72{
-    top: 18rem;
+  .lg\:top-\[45\%\]{
+    top: 45%;
+  }
+
+  .lg\:top-\[43\%\]{
+    top: 43%;
+  }
+
+  .lg\:left-28{
+    left: 7rem;
+  }
+
+  .lg\:top-\[42\%\]{
+    top: 42%;
+  }
+
+  .lg\:left-\[7rem\]{
+    left: 7rem;
+  }
+
+  .lg\:left-\[6\.5rem\]{
+    left: 6.5rem;
+  }
+
+  .lg\:left-\[6\.2rem\]{
+    left: 6.2rem;
   }
 
   .lg\:order-2{
@@ -1037,13 +1021,13 @@ video {
     padding-bottom: 0.125rem;
   }
 
-  .lg\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
