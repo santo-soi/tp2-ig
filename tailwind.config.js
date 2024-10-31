@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     'index.html',
+    'ultimo.html',
     'show.html',
     'js/*.js'
   ],
