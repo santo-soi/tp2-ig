@@ -586,6 +586,22 @@ video {
   right: 0px;
 }
 
+.top-1{
+  top: 0.25rem;
+}
+
+.top-2{
+  top: 0.5rem;
+}
+
+.top-3{
+  top: 0.75rem;
+}
+
+.top-2\.5{
+  top: 0.625rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -612,6 +628,10 @@ video {
 
 .m-4{
   margin: 1rem;
+}
+
+.m-5{
+  margin: 1.25rem;
 }
 
 .mx-1\.5{
@@ -642,6 +662,11 @@ video {
 .my-3{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-12{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .box-border{
@@ -706,6 +731,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-7{
+  width: 1.75rem;
 }
 
 .flex-1{
@@ -809,6 +838,14 @@ video {
   --tw-bg-opacity: 0.8;
 }
 
+.bg-opacity-40{
+  --tw-bg-opacity: 0.4;
+}
+
+.bg-opacity-85{
+  --tw-bg-opacity: 0.85;
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -864,6 +901,16 @@ video {
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-medium{
@@ -955,12 +1002,20 @@ video {
     position: absolute;
   }
 
+  .lg\:relative{
+    position: relative;
+  }
+
   .lg\:left-\[6\.2rem\]{
     left: 6.2rem;
   }
 
   .lg\:top-\[42\%\]{
     top: 42%;
+  }
+
+  .lg\:z-10{
+    z-index: 10;
   }
 
   .lg\:order-2{
@@ -977,6 +1032,10 @@ video {
 
   .lg\:m-3{
     margin: 0.75rem;
+  }
+
+  .lg\:m-0{
+    margin: 0px;
   }
 
   .lg\:mx-4{
@@ -1003,6 +1062,10 @@ video {
 
   .lg\:w-bloquesMain{
     width: 25%;
+  }
+
+  .lg\:w-full{
+    width: 100%;
   }
 
   .lg\:flex-row{
