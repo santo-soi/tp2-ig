@@ -9,32 +9,31 @@
 <body>
     <div class="bg-rojoFondo bg-opacity-80">
         
-        <div class="h-screen">
+        <div class="h-screen relative">
 
-        <header class="w-full z-20 fixed lg:static">
+        <header class="w-full z-10 fixed lg:static">
 
         <div class="flex justify-between lg:block bg-black bg-opacity-50 lg:bg-transparent">
-        <h1 class="lg:absolute lg:top-[42%] lg:left-[6.2rem] p-4 pl-6 flex-1 tracking-tighter text-4xl lg:text-6xl font-medium font-moda text-slate-50">Gonzale<span class="text-orange-300">X</span> Romero</h1>
-        <nav class="lg:fixed lg:right-0 m-2 w-9">
-            <div id="burguer" class="w-full flex flex-col justify-center items-center">
+        <h1 class="z-10 lg:absolute lg:top-[42%] lg:left-[6.2rem] p-4 pl-6 flex-1 tracking-tighter text-4xl lg:text-6xl font-medium font-moda text-slate-50">Gonzale<span class="text-orange-300">X</span> Romero</h1>
+        <nav class="box-border relative z-10 w-full flex">
+            <div id="burguer" class="z-20 right-0 w-9 m-2 fixed flex flex-col justify-center items-center">
             <div class="w-full lg:py-0.5 py-0.5 my-1 bg-slate-100 rounded-sm"></div>
             <div class="w-full lg:py-0.5 py-0.5 my-1 bg-slate-100 rounded-sm"></div>
             <div class="w-full lg:py-0.5 py-0.5 my-1  bg-slate-100 rounded-sm"></div>
             </div>
-            <div id="desplegable" class="flex-col justify-start items-center bg-rojoPelado w-screen h-screen hidden">
-                <a href="index.html" class="mt-28">Inicio</a>
-                <a href="ultimo.html">Lo Último</a>
-                <a href="#">El Camino</a>
-                <a href="#">Obra</a>
-                <a href="show.html">Shows</a>
+            <div id="desplegable" class="flex-col fixed justify-center items-center bg-rojoPelado w-full h-3/4 hidden py-5 box-content">
+                <a href="index.html" class="text-slate-100 lg:text-2xl lg:my-12 hover:underline">Inicio</a>
+                <a href="ultimo.html" class="text-slate-100 lg:text-2xl lg:my-12 hover:underline">Lo Último</a>
+                <a href="#" class="text-slate-100 lg:text-2xl lg:my-12 hover:underline">El Camino</a>
+                <a href="#" class="text-slate-100 lg:text-2xl lg:my-12 hover:underline">Obra</a>
+                <a href="show.html" class="text-slate-100 lg:text-2xl lg:my-12 hover:underline">Shows</a>
             </div>
         </nav>
 
         </div>
         </header>
 
-        <h2 class="absolute top-56 left-56 text-slate-100 z-10"></h2> 
-        <img class="w-full h-full object-cover" src="img/portada.jpg" alt="portada">
+        <img class="absolute inset-0 w-full h-full object-cover" src="img/portada.jpg" alt="portada">
 
         </div>
 
@@ -42,7 +41,7 @@
         <div  class="h-4 bg-white"></div>
         <section id="paginas" class="flex flex-col my-10 lg:mb-14 lg:justify-center lg:flex-row">
             <div class="h-96 m-4 my-10  lg:w-bloquesMain lg:m-2 group relative">
-                <a href="#" target="_self">
+                <a href="ultimo.html" target="_self">
                     <div class="absolute inset-0 bg-slate-900 bg-opacity-0 group-hover:bg-opacity-60 transition duration-1000 y w-full h-full">
                         <span class="invisible absolute font-medium h-full p-10 text-slate-200 bg-slate-50 bg-opacity-0 opacity-0 transition duration-1000 group-hover:visible group-hover:opacity-100 group-hover:bg-opacity-10 ">Gordo Bachicha, perro salchicha, me como un paty a la parrilla</span>
                     </div>
@@ -93,5 +92,6 @@
             </section>
         </footer>
     </div>
+    <script src="js/img-hover.js"></script>
 </body>
 </html>
