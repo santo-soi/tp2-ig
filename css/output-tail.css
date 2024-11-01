@@ -2,11 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Gloria+Hallelujah&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Major+Mono+Display&family=Special+Elite&display=swap');
+
 /*fonts*/
 
 /*gloria*/
 
 /*bodoni*/
+
+/*Major Mono*/
+
+/* julius*/
 
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
@@ -582,8 +590,16 @@ video {
   inset: 0px;
 }
 
+.left-56{
+  left: 14rem;
+}
+
 .right-0{
   right: 0px;
+}
+
+.top-56{
+  top: 14rem;
 }
 
 .z-10{
@@ -612,6 +628,11 @@ video {
 
 .m-5{
   margin: 1.25rem;
+}
+
+.mx-1{
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mx-1\.5{
@@ -647,6 +668,11 @@ video {
 .my-3{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .box-border{
@@ -705,6 +731,14 @@ video {
   width: 2.5rem;
 }
 
+.w-12{
+  width: 3rem;
+}
+
+.w-2\/4{
+  width: 50%;
+}
+
 .w-7{
   width: 1.75rem;
 }
@@ -719,6 +753,10 @@ video {
 
 .flex-1{
   flex: 1 1 0%;
+}
+
+.flex-row{
+  flex-direction: row;
 }
 
 .flex-col{
@@ -743,6 +781,10 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
 }
 
 .self-end{
@@ -810,6 +852,10 @@ video {
   --tw-bg-opacity: 0;
 }
 
+.bg-opacity-10{
+  --tw-bg-opacity: 0.1;
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -865,13 +911,26 @@ video {
   text-align: end;
 }
 
+.font-mm{
+  font-family: Major Mono Display;
+}
+
 .font-moda{
   font-family: Bodoni Moda;
+}
+
+.font-julius{
+  font-family: Julius Sans One;
 }
 
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl{
@@ -882,6 +941,10 @@ video {
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.font-extrabold{
+  font-weight: 800;
 }
 
 .font-medium{
@@ -1058,6 +1121,11 @@ video {
   .lg\:py-0\.5{
     padding-top: 0.125rem;
     padding-bottom: 0.125rem;
+  }
+
+  .lg\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:text-6xl{
