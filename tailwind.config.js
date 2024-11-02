@@ -11,7 +11,8 @@ module.exports = {
       gloria: ['Gloria Hallelujah'],
       moda: ['Bodoni Moda'],
       mm: ['Major Mono Display'],
-      julius: ['Julius Sans One']
+      julius: ['Julius Sans One'],
+      zilla: ['Zilla Slab']
 
     },
     extend: { 
