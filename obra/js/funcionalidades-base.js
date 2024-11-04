@@ -17,10 +17,9 @@ if (vidCuandoCorre != null){
     vidCuandoCorre.addEventListener("click", () => {
         // Cambia el contenido del div por el iframe de YouTube
 
-        vidCuandoCorre.innerHTML += '<h3 class="text-rojoPelado">Vas a ser redirigido a youtube para ver el video...</h3>'
-        setTimeout(() => window.location = 'https://www.youtube.com/watch?v=2xE8dzUc0hM', 1000); 
+        this.innerHTML += '<h3 class="text-rojoPelado">Vas a ser redirigido a youtube para ver el video...</h3>'
+        setTimeout(() => window.location = 'https://www.youtube.com/watch?v=-ZlkLvrja0c', 1000); 
 
-        
         vidCuandoCorre.innerHTML += '<h3 class="text-rojoPelado">Vas a ser redirigido a youtube para ver el video...</h3>'
         setTimeout(() => window.location = 'https://www.youtube.com/watch?v=2xE8dzUc0hM', 1000); 
 
@@ -52,9 +51,5 @@ function cambiarImagenPortada(imagen) {
         // Restablece el src cuando no es mobile
         imagen.src = "img/portada.jpg";
     }
-
 }
-
-
-
 
