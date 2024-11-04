@@ -9,7 +9,7 @@ burguer.addEventListener('click', () =>{
     desplegable.classList.toggle('flex');
 })
 
-if (portada[0].src.includes('img/portada.jpg')) {
+if (portada[0].src.includes('img/index/portada.jpg')) {
     cambiarImagenPortada(portada[0]);
 }
 
@@ -42,10 +42,10 @@ if (verMas != null){
 function cambiarImagenPortada(imagen) { 
     if (window.matchMedia("(max-width: 768px)").matches) {
         // Cambia el src cuando es mobile
-        imagen.src = "img/portada-mobile.jpg";
+        imagen.src = "img/index/portada-mobile.jpg";
     } else {
         // Restablece el src cuando no es mobile
-        imagen.src = "img/portada.jpg";
+        imagen.src = "img/index/portada.jpg";
     }
 }
 

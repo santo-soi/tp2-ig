@@ -2,14 +2,15 @@ const portada = document.querySelectorAll('img');
 const burguer = document.querySelector('#burguer');
 const desplegable = document.querySelector('#desplegable');
 const vidCuandoCorre = document.querySelector('#img-video');
-const verMas = document.querySelector('#mostrarmas')
+const verMas = document.querySelector('#mostrarmas');
+const portadA = document.querySelector('#portada');
 
 burguer.addEventListener('click', () =>{
     desplegable.classList.toggle('hidden');
     desplegable.classList.toggle('flex');
 })
 
-if (portada[0].src.includes('img/portada.jpg')) {
+if (portada[0].src.includes('img/index/portada.jpg')) {
     cambiarImagenPortada(portada[0]);
 }
 
@@ -17,8 +18,7 @@ if (vidCuandoCorre != null){
     vidCuandoCorre.addEventListener("click", () => {
         // Cambia el contenido del div por el iframe de YouTube
 
-        vidCuandoCorre.innerHTML += '<h3 class="text-rojoPelado">Vas a ser redirigido a youtube para ver el video...</h3>'
-        setTimeout(() => window.location = 'https://www.youtube.com/watch?v=2xE8dzUc0hM', 1000); 
+       
 
         
         vidCuandoCorre.innerHTML += '<h3 class="text-rojoPelado">Vas a ser redirigido a youtube para ver el video...</h3>'
@@ -47,10 +47,10 @@ if (verMas != null){
 function cambiarImagenPortada(imagen) { 
     if (window.matchMedia("(max-width: 768px)").matches) {
         // Cambia el src cuando es mobile
-        imagen.src = "img/portada-mobile.jpg";
+        imagen.src = "img/index/portada-mobile.jpg";
     } else {
         // Restablece el src cuando no es mobile
-        imagen.src = "img/portada.jpg";
+        imagen.src = "img/index/portada.jpg";
     }
 
 }
