@@ -5,6 +5,8 @@ module.exports = {
     'index.html',
     'ultimo.html',
     'show.html',
+    'camino/index.html',
+    'contacto.html',
     'js/*.js'
   ],
   theme: {
@@ -34,9 +36,8 @@ module.exports = {
     },
   },
   plugins: [
-    require("flyonui"),
-    require("flyonui/plugin")
-  ],
+    require("flyonui")
+  ]
 }
 
 

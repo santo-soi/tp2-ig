@@ -51,11 +51,95 @@
                 <h3 class="font-mm text-center text-slate-200 capitalize my-2">Recorrido Musical</h3>
             </div>
         </section>
-        <section class="flex flex-col items-center my-10 bg-black m-4 lg:m-2">
+
+        <section class="flex flex-col items-center my-10 bg-black m-4 lg:m-2 p-4">
            <div>
-            <h1 class="font-zilla font-bold text-4xl text-white text-center">Galería</h1>
-            <p class="font-zilla font-bold text-lg text-white text-center">Un para de fotos que dejan entrever un poco los pasos del reocrrido</p>
+            <h1 class="font-zilla font-bold text-4xl text-white text-center my-6">Galería</h1>
+            <p class="font-zilla font-bold text-lg text-white text-center my-6">Un para de fotos que dejan entrever un poco los pasos del recorrido</p>
            </div>
+
+<!--Galería-->
+           <div id="carousel-1" data-carousel='{ "loadingClasses": "opacity-0" }' class="relative w-full">
+            <div class="carousel">
+              <div class="carousel-body opacity-0">
+                <!-- Slide 1 -->
+                <div class="carousel-slide">
+                  <div class="bg-base-300/60 flex h-full justify-center p-6">
+                    <span class="self-center text-2xl sm:text-4xl"><img src="" alt=""></span>
+                  </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-slide">
+                  <div class="bg-base-300/80 flex h-full justify-center p-6">
+                    <span class="self-center text-2xl sm:text-4xl">Second slide</span>
+                  </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-slide">
+                  <div class="bg-base-300 flex h-full justify-center p-6">
+                    <span class="self-center text-2xl sm:text-4xl ">Third slide</span>
+                  </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="carousel-slide">
+                    <div class="bg-base-300 flex h-full justify-center p-6">
+                      <span class="self-center text-2xl sm:text-4xl ">Third slide</span>
+                    </div>
+                  </div>
+                <!-- Slide 5 -->
+                <div class="carousel-slide">
+                    <div class="bg-base-300 flex h-full justify-center p-6">
+                      <span class="self-center text-2xl sm:text-4xl ">Third slide</span>
+                    </div>
+                  </div>
+                <!-- Slide 6 -->
+                <div class="carousel-slide">
+                    <div class="bg-base-300 flex h-full justify-center p-6">
+                      <span class="self-center text-2xl sm:text-4xl ">Third slide</span>
+                    </div>
+                  </div>
+                <!-- Slide 7 -->
+                <div class="carousel-slide">
+                    <div class="bg-base-300 flex h-full justify-center p-6">
+                      <span class="self-center text-2xl sm:text-4xl ">Third slide</span>
+                    </div>
+                  </div>
+                 <!-- Slide 8 -->
+                <div class="carousel-slide">
+                    <div class="bg-base-300 flex h-full justify-center p-6">
+                      <span class="self-center text-2xl sm:text-4xl ">Third slide</span>
+                    </div>
+                  </div>
+                <!-- Slide 9 -->
+                <div class="carousel-slide">
+                    <div class="bg-base-300 flex h-full justify-center p-6">
+                      <span class="self-center text-2xl sm:text-4xl ">Third slide</span>
+                    </div>
+                  </div> 
+                <!-- Slide 10 -->
+                <div class="carousel-slide">
+                    <div class="bg-base-300 flex h-full justify-center p-6">
+                      <span class="self-center text-2xl sm:text-4xl ">Third slide</span>
+                    </div>
+                </div>        
+                
+              </div>
+            </div>
+            <!-- slide anterior -->
+            <button type="button" class="carousel-prev">
+              <span class="size-9.5 bg-base-100 flex items-center justify-center rounded-full shadow">
+                <span class="icon-[tabler--chevron-left] size-5 cursor-pointer rtl:rotate-180"></span>
+              </span>
+              <span class="sr-only">Anterior</span>
+            </button>
+            <!-- slide siguiente -->
+            <button type="button" class="carousel-next">
+              <span class="sr-only">Siguiente</span>
+              <span class="size-9.5 bg-base-100 flex items-center justify-center rounded-full shadow">
+                <span class="icon-[tabler--chevron-right] size-5 cursor-pointer rtl:rotate-180"></span>
+              </span>
+            </button>
+          </div>
         </section>
     </main>
     
@@ -74,6 +158,7 @@
     </footer>
 </div>
 <script src="../js/funcionalidades-base.js"></script>
+<script src="../node_modules/flyonui/flyonui.js"></script>
 
 </body>
 </html>
