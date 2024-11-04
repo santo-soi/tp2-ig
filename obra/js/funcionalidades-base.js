@@ -16,12 +16,8 @@ if (portada[0].src.includes('img/portada.jpg')) {
 if (vidCuandoCorre != null){
     vidCuandoCorre.addEventListener("click", () => {
         // Cambia el contenido del div por el iframe de YouTube
-
-        this.innerHTML += '<h3 class="text-rojoPelado">Vas a ser redirigido a youtube para ver el video...</h3>'
-        setTimeout(() => window.location = 'https://www.youtube.com/watch?v=-ZlkLvrja0c', 1000); 
-
         vidCuandoCorre.innerHTML += '<h3 class="text-rojoPelado">Vas a ser redirigido a youtube para ver el video...</h3>'
-        setTimeout(() => window.location = 'https://www.youtube.com/watch?v=2xE8dzUc0hM', 1000); 
+        setTimeout(() => window.location = 'https://youtu.be/-ZlkLvrja0c?si=0xWuNJDYUhrewj0B', 1000); 
 
     });
 }
