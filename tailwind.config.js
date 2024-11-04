@@ -29,7 +29,13 @@ module.exports = {
       rojoFondo :'#9f120d'
     },
     width: {
-      'bloquesMain': '25%'
+      'bloquesMain': '25%',
+      'fotos-galeria': '40rem'
+
+    },
+    height:{
+      'galeria': '40rem',
+      'fotos-galeria': '30rem'
     }
 
 

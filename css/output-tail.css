@@ -1331,6 +1331,11 @@ html{
   color: var(--fallback-b1,oklch(var(--b1)/var(--tw-text-opacity)));
 }
 
+.radio,
+.radio-inset{
+  flex-shrink: 0;
+}
+
 .select{
   display: inline-flex;
   cursor: pointer;
@@ -3215,6 +3220,47 @@ input:focus-visible{
   }
 }
 
+.radio{
+  --basebg: var(--fallback-b1,oklch(var(--b1)/1));
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 9999px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: var(--fallback-n,oklch(var(--n)/var(--tw-border-opacity)));
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
+}
+
+.radio:focus{
+  box-shadow: none;
+}
+
+.radio:focus-visible{
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: 0px;
+  outline-color: var(--fallback-n,oklch(var(--n)/0.3));
+}
+
+.radio:checked,
+  .radio[aria-checked="true"]{
+  --tw-border-opacity: 1;
+  border-color: var(--fallback-n,oklch(var(--n)/var(--tw-border-opacity)));
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-n,oklch(var(--n)/var(--tw-bg-opacity)));
+  background-image: none;
+  animation: radiomark var(--animation-input, 0.1s) ease-out;
+  box-shadow: 0 0 0 3px var(--basebg) inset,
+      0 0 0 3px var(--basebg) inset,
+      var(--tw-ring-offset-shadow),
+      var(--tw-ring-shadow);
+}
+
 .radio.disabled,
   .radio:disabled,
   .radio[disabled],
@@ -4563,6 +4609,21 @@ textarea:focus-visible{
   position: relative;
 }
 
+[type="radio"].radio.radio-xs, [type="radio"].radio-inset.radio-xs{
+  width: 1rem;
+  height: 1rem;
+}
+
+[type="radio"].radio.radio-sm, [type="radio"].radio-inset.radio-sm{
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+[type="radio"].radio.radio-lg, [type="radio"].radio-inset.radio-lg{
+  width: 2rem;
+  height: 2rem;
+}
+
 .tabs-lg :where(.tab){
   height: 2.875rem;
   font-size: 1.125rem;
@@ -4890,6 +4951,10 @@ textarea:focus-visible{
   height: 24rem;
 }
 
+.h-fotos-galeria{
+  height: 30rem;
+}
+
 .h-full{
   height: 100%;
 }
@@ -4928,6 +4993,10 @@ textarea:focus-visible{
 
 .w-9{
   width: 2.25rem;
+}
+
+.w-fotos-galeria{
+  width: 40rem;
 }
 
 .w-full{
@@ -5058,6 +5127,10 @@ textarea:focus-visible{
   border-radius: 0.375rem;
 }
 
+.rounded-none{
+  border-radius: 0px;
+}
+
 .rounded-sm{
   border-radius: 0.125rem;
 }
@@ -5172,6 +5245,10 @@ textarea:focus-visible{
 
 .bg-opacity-85{
   --tw-bg-opacity: 0.85;
+}
+
+.bg-opacity-70{
+  --tw-bg-opacity: 0.7;
 }
 
 .fill-black{
@@ -5591,6 +5668,11 @@ textarea:focus-visible{
     margin-right: 1rem;
   }
 
+  .lg\:my-4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
   .lg\:my-8{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -5602,6 +5684,10 @@ textarea:focus-visible{
 
   .lg\:block{
     display: block;
+  }
+
+  .lg\:h-galeria{
+    height: 40rem;
   }
 
   .lg\:w-1\/2{
@@ -5652,8 +5738,25 @@ textarea:focus-visible{
     justify-content: space-around;
   }
 
+  .lg\:bg-black{
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-transparent{
+    background-color: transparent;
+  }
+
+  .lg\:bg-opacity-80{
+    --tw-bg-opacity: 0.8;
+  }
+
   .lg\:p-3{
     padding: 0.75rem;
+  }
+
+  .lg\:p-4{
+    padding: 1rem;
   }
 
   .lg\:py-0\.5{
