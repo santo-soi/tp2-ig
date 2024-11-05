@@ -35,12 +35,14 @@
 
             <h2 class="font-mm font-semibold lg:font-bold p-2 text-xl lg:text-4xl text-center text my-6 mt-7 underline text-white">Comunicate con <span class="text-2xl p-2 lg:text-4xl">Gonzale<span class="text-orange-300">X</span></span> en 4 sencillos pasos</h2>
 
-            <form  class="flex flex-col"> 
+            <form  class="flex flex-col needs-validation" novalidate> 
             <label class="form-control static my-3">
                 <div class="label">
                     <span class="label-text text-white font-mm text-xl">Nombre Completo</span>
                 </div>
-                <input id="nombre" type="text" placeholder="GonzaleX Romero" class="input font-mm text-sm">
+                <input id="nombre" type="text" required placeholder="GonzaleX Romero" class="input font-zilla text-sm">
+                <span class="success-message font-mm">Nombre completo ingresado correctamente</span>
+                <span class="error-message font-mm">Por favor escribí bien tu nombre (sin numeros, y solo nombre y apellido separados).</span>
                 <div class="label">
                     <span class="label-text-alt text-white text-sm font-mm">Por favor, escribí tu nombre completo</span>
                  </div>
@@ -50,7 +52,9 @@
                 <div class="label">
                     <span class="label-text text-white font-mm text-xl">E-mail</span>
                 </div>
-                <input id="mail" type="email" placeholder="gonzalexromero@gmail.com" class="input font-mm text-sm">
+                <input id="mail" type="email" required placeholder="gonzalexromero@gmail.com" class="input font-zilla text-sm">
+                <span class="success-message font-mm">Correo electrónico ingresado correctamente</span>
+                <span class="error-message font-mm">Dirección de correo inválida. Por favor, intenta de nuevo.</span>
                 <div class="label">
                     <span class="label-text-alt text-white text-sm font-mm">Por favor, escribí tu dirección de correo electrónico</span>
                  </div>
@@ -60,15 +64,17 @@
                 <div class="label">
                     <span class="label-text text-white font-mm text-xl">Mensaje</span>
                 </div>
-            <textarea id="mensaje" class="textarea bg-white max-w-sm font-mm text-sm" placeholder="Escribí acá para ponerte en contacto"></textarea>
+            <textarea id="mensaje" rows="10" minlength="20" required maxlength="200" class="textarea bg-white font-zilla text-sm" placeholder="Escribí acá para ponerte en contacto (tenés un límite de 200 caracteres)"></textarea>
+            <span class="success-message font-mm">Mensaje preparado</span>
+            <span class="error-message font-mm">Escribí un mensaje real. Por favor, llena el campo con el mensaje que quieras enviar.</span>
             </label>
 
-            <button type="button" class="btn btn-text btn-warning font-mm">Enviar mensaje</button>
+            <button id="enviar" type="button" class="btn btn-text btn-warning font-mm">Enviar mensaje</button>
            </form>
 
            </div>
-           <div class=" border-black border-opacity-80 bg-black bg-opacity-80 w-full p-4">
-            <img class="w-full" src="img/contacto.jpeg" alt="GonzaleX hablando por telefono">
+           <div class=" border-black border-opacity-80 bg-black bg-opacity-80 w-full  p-4">
+            <img class="w-full my-10" src="img/contacto.jpeg" alt="GonzaleX hablando por telefono">
             </div>
             
         </section>
@@ -89,5 +95,6 @@
 </div>
 <script src="js/funcionalidades-base.js"></script>
 <script src="node_modules/flyonui/flyonui.js"></script>
+<script src="js/validacion-contacto.js"></script>
 </body>
 </html>
